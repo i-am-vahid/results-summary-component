@@ -1,0 +1,12 @@
+@use './../globals/breakpoints' as g;
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+    a,a:visited,a:active{
+        color: var(--Cobalt-blue);
+    }   
+    @include g.break-down(large){
+        display: none;
+    } 
+}

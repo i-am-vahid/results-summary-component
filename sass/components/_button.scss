@@ -1,0 +1,20 @@
+@use './../globals/breakpoints' as g;
+
+.main__summery{
+    &--button{
+        width: 100%;
+        border: none;
+        outline: none;
+        padding: 1rem 0 ;
+        border-radius: 1.5rem;
+        font-weight: 800;
+        color: var(--White);
+        background:linear-gradient(to bottom,var(--Dark-gray-blue),var(--Dark-gray-blue)) ;
+        cursor: pointer;
+        transition: 0.4s;
+        &:hover{
+            background: linear-gradient(to bottom, var(--Light-slate-blue-background),var(--Light-royal-blue-background));
+        }
+
+    }
+}
